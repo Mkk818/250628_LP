@@ -107,17 +107,18 @@ body {
     letter-spacing: 0.15em;
     margin-top: 0;
 }
+.main-visual-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
 
-.cta-main-visual {
-    position: absolute;
-    right: 50px;
-    top: 500px;
+.cta-circle-main {
     width: 400px;
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 56px 40px;
     box-sizing: border-box;
     color: #FFFFFF;
